@@ -3,6 +3,8 @@ import { Home, Code, User} from 'lucide-react'
 
 import Header from "../components/Header";
 import Hero from '../components/Hero';
+import Footer from '../components/Footer'
+import About from '../components/About'
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -47,7 +49,13 @@ const Portfolio = () => {
         scrollY={scrollY} />
 
       <Hero />
+
+      <About />
+
+      <Footer />
     </div>
+
+    
   );
 };
 

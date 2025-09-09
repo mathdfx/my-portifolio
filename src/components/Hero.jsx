@@ -3,10 +3,9 @@ import React from 'react';
 import fotoMatheus from '../images/matheus-oliveira.webp';
 import { Eye, ArrowRight, User, Github, Linkedin } from 'lucide-react';
 
-
 function Hero({ scrollToSection }) {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-24">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-24 bg-neutral-900">
  {/*
       <div className="absolute inset-0"> 
         <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 sm:w-72 h-48 sm:h-72 bg-gradient-to-br from-purple-200 to-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
@@ -70,9 +69,9 @@ function Hero({ scrollToSection }) {
 
         <div className="relative flex justify-center lg:justify-end order-1 lg:order-2 mb-8 lg:mb-0">
           <div className="relative">
-            <div className="w-64 sm:w-80 lg:w-96 aspect-square bg-gradient-to-br from-neutral-800 to-pastel-900 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-500">
+            <div className="w-64 sm:w-80 lg:w-96 aspect-square bg-gradient-to-br from-neutral-800 to-pastel-900 rounded-2xl sm:rounded-3xl shadow-2xl shadow-black overflow-hidden transform hover:scale-105 transition-transform duration-500">
               <img 
-                className="w-full h-full object-cover object-center b"
+                className="w-full h-full object-cover object-center"
                 src={fotoMatheus} 
                 alt="Matheus Oliveira"
                 loading="eager"
