@@ -16,7 +16,8 @@ function Hero({ scrollToSection }) {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
         <div className="text-center lg:text-left order-2 lg:order-1">
-          
+        
+        
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight">
             Olá, eu sou o
             <span className="block bg-gradient-to-b from-pink-100 via-pastel-100 to-pastel-600  bg-clip-text text-transparent animate-pulse">
@@ -84,8 +85,8 @@ function Hero({ scrollToSection }) {
 
       {/* Scroll */}
       <div className="hidden sm:block absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-neutral-400 rounded-full p-1">
-          <div className="w-1 h-3 bg-neutral-400 rounded-full mx-auto animate-pulse"></div>
+        <div className="w-6 h-10 border-2 border-white rounded-full p-1">
+          <div className="w-1 h-3 bg-white rounded-full mx-auto animate-pulse"></div>
         </div>
       </div>
     </section>
