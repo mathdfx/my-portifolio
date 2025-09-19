@@ -17,7 +17,7 @@ const Header = ({ sections, activeSection, scrollToSection, mobileMenuOpen, setM
               className="cursor-pointer group relative"
             >
               <span className="text-xl font-bold text-pastel-100 md:text-white group-hover:text-pastel-200 transition-colors duration-300">
-                MATH
+                Guilherme 
               </span>
               <span className="absolute -top-1 font-bold text-pastel-100 md:text-white group-hover:text-pastel-100 transition-colors duration-300">
                 <Shrimp />
